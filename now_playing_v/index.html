@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<meta http-equiv="refresh" content="10" >-->
+    <title>malopieds' website</title>
+    @css 'index.css'
+    @js 'scripts.js'
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="music">
+        <div class="title">
+          <h2 id="listening">@curr</h2>
+        </div>
+        <div class="content">
+          <img src=@img alt="" id="image">
+          <h2 id="title">@title</h2>
+          <p id="artist">@artist</p>
+        </div>
+        <div class="request">
+          <h3>Make a song request</h1>
+          <input id="d1" placeholder="Enter an artist and a song">
+          <input id="d2" placeholder="Enter your name/something to say">
+          <button onclick="sendData()" class="request_btn">Send Request</button>
+        </div>
+      </div>
+    </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  </body>
+</html>
